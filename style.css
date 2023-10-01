@@ -96,7 +96,7 @@ nav > ul {
     padding-left: 50vh;
     padding-right: 50vh;
 }
-h1, h2, p {
+#content1-h1, #content1-h2, #content1-p {
     color: #eee;
     font-family: "south-mind-regular";
     font-weight: 500;
@@ -104,15 +104,15 @@ h1, h2, p {
     margin-top: 5vh;
   }
   
-  h1 {
+  #content1-h1 {
     font-size: 5rem;
     margin-top: 25vh;
   }
   
-  h2 { font-size: 3rem; 
+  #content1-h2{ font-size: 3rem; 
     margin-top: -5vh;
 }
-p {
+#content1-p {
     font-size: 2rem;
     margin-top: -2.5vh;
 }
