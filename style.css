@@ -29,18 +29,27 @@ nav > ul {
     margin-right: 12%;
     list-style: none;
 }
-a {
+.hero {
     text-decoration: none;
     color: #eee;
     display: inline-block;
-    font-size: 1.2rem;
     font-weight: 530;
     position: relative;
+    font-size: 1.2rem;
 }
-  
-  a::after {
+#Logo {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    font-weight: 550;
+    font-family: "south-mind-regular";
+    position: relative;
+    font-size: 3rem;
+}
+  .hero::after, #Logo::after {
     content: '';
- 
+    position: absolute;
     width: 100%;
     transform: scaleX(0);
     height: 2px;
@@ -51,7 +60,7 @@ a {
     transition: transform 0.25s ease-out;
   }
   
-  a:hover::after{
+  .hero:hover::after, #Logo:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -100,8 +109,10 @@ h1, h2, p {
     margin-top: 25vh;
   }
   
-  h2 { font-size: 3rem; }
+  h2 { font-size: 3rem; 
+    margin-top: -5vh;
+}
 p {
     font-size: 2rem;
-    margin-top: -3vh;
+    margin-top: -2.5vh;
 }
