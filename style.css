@@ -542,3 +542,9 @@ button:hover:after {
 .from-left:hover:after {
   width: 100%;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
